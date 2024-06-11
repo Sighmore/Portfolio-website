@@ -1,0 +1,116 @@
+
+li{
+  margin: 10px;
+  font-weight: bold;
+}
+
+#icons1,#icons2 {
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+#icons1 i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#logo{
+border-radius: 20px;
+width: 130px;
+float: left;
+display: block;
+margin-right: auto;
+}
+#bg1{
+  background-size: cover;
+}
+#Header{
+  background-color: #ECEDF1;
+  height: 50%;
+}
+#hi {
+  position: relative;
+}
+
+.body {
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.intro {
+  margin-top: 40vh;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 30px;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile-container {
+  margin-top: 24vh;
+  margin-right: 23%;
+  height: 200px;
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img {
+  height: 270px;
+  border-radius: 50%;
+  animation: blob 5s ease infinite;
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.fa-brands{
+  margin: 5px;
+}
+.Cont {
+  padding: 8px;
+  margin-top: 5px;
+  height: 10%;
+  display: flex;
+  background-color: #f7f7f7;
+  margin-top: auto;
+  justify-content: flex-end;
+}
+#icons,#icons1,#icons2{
+  border-radius: 30px;
+  background-color: #f7f7f7;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#icons h1{
+  font-size: 30px;
+  height: 60%;
+  font-weight: bold;
+}
