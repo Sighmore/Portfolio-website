@@ -69,6 +69,45 @@ margin-right: auto;
   top: 0;
   right: 0;
 }
+.formfield{
+  margin-top: 5vh;
+  margin-right: 5%;
+  height: 200px;
+  width: 35%;
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+}
+.aboutneed,.emailfield{
+  width: 97%;
+}
+.names input{
+  width: 45%;
+  padding: 5px;
+  background-color: #f7f7f7;
+  margin-right: 2px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 10px;
+}
+.form{
+  margin-top: 20px;
+}
+button.submit{
+  margin-left: 30%;
+  background-color: #6010F4;
+  border-radius: 40px;
+}
+.formfield h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+.contacth1{
+  font-size: 35px;
+  font-weight: bold;
+}
 
 .img {
   height: 270px;
@@ -104,6 +143,7 @@ margin-right: auto;
   border-radius: 30px;
   background-color: #f7f7f7;
 }
+
 body {
   min-height: 100vh;
   display: flex;
