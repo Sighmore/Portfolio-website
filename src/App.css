@@ -47,7 +47,19 @@ margin-right: auto;
   height: 100vh;
   object-fit: cover;
 }
-
+#icons1 i:hover{
+background-color:#07384D;
+border-radius: 50%;
+text-align: center;
+cursor: pointer;
+}
+#icons2 i:hover{
+  background-color:#07384D;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  }
+  
 .intro {
   margin-top: 40vh;
   width: 50%;
@@ -153,4 +165,118 @@ body {
   font-size: 30px;
   height: 60%;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  #icons1, #icons2 {
+    flex-direction: row;
+  }
+  #icons1 i {
+    font-size: 18px;
+  }
+  #logo {
+    width: 100px;
+  }
+  #bg1 {
+    background-size: contain;
+  }
+  #Header {
+    height: 30%;
+  }
+  .intro {
+    margin-top: 20vh;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .profile-container {
+    margin-top: 20vh;
+    margin-right: 15%;
+    height: 150px;
+    width: 25%;
+  }
+  .formfield {
+    margin-top: 10vh;
+    margin-right: 10%;
+    height: 150px;
+    width: 40%;
+  }
+  .names input {
+    width: 60%;
+  }
+  button.submit {
+    margin-left: 20%;
+  }
+  .formfield h2 {
+    font-size: 15px;
+  }
+  .contacth1 {
+    font-size: 25px;
+  }
+  .img {
+    height: 200px;
+  }
+  .fa-brands {
+    margin: 3px;
+  }
+  .Cont {
+    padding: 6px;
+    margin-top: 3px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #icons1, #icons2 {
+    flex-direction: column;
+  }
+  #icons1 i {
+    font-size: 15px;
+  }
+  #logo {
+    width: 80px;
+  }
+  #bg1 {
+    background-size: cover;
+  }
+  #Header {
+    height: 20%;
+  }
+  .intro {
+    margin-top: 15vh;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .profile-container {
+    margin-top: 15vh;
+    margin-right: 10%;
+    height: 100px;
+    width: 30%;
+  }
+  .formfield {
+    margin-top: 10vh;
+    margin-right: 5%;
+    height: 100px;
+    width: 50%;
+  }
+  .names input {
+    width: 50%;
+  }
+  button.submit {
+    margin-left: 15%;
+  }
+  .formfield h2 {
+    font-size: 12px;
+  }
+  .contacth1 {
+    font-size: 20px;
+  }
+  .img {
+    height: 150px;
+  }
+  .fa-brands {
+    margin: 2px;
+  }
+  .Cont {
+    padding: 4px;
+    margin-top: 2px;
+  }
 }
