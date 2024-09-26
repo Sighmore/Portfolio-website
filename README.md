@@ -29,3 +29,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Images
+![Screenshot Capture - 2024-09-20 - 13-13-53](https://github.com/user-attachments/assets/c36836b6-1ff3-4959-9d93-fb1662c88400)
